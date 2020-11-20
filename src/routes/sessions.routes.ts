@@ -20,10 +20,9 @@ sessionsRouter.post('/', async (request, response) => {
     email: user.email,
     created_at: user.created_at,
     updated_at: user.updated_at,
-    token,
   };
 
-  return response.json(userWithoutPassword);
+  return response.json({ user: userWithoutPassword, token });
 });
 
 export default sessionsRouter;

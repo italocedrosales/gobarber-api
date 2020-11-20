@@ -1,6 +1,6 @@
-<!-- <h1 align="center">
-  <img alt="Logo" src="" width="200px">
-</h1> -->
+<h1 align="center">
+  <img alt="Logo" src="https://res.cloudinary.com/eliasgcf/image/upload/v1588625369/GoBarber/logo_iw1v9f.svg" width="200px">
+</h1>
 
 <h1 align="center">
   GoBarber project
