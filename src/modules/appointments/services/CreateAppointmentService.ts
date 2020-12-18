@@ -18,11 +18,11 @@ class CreateAppointmentService {
   }: IRequestDTO): Promise<Appointment> {
     const appointmentDate = startOfHour(date);
 
-    const findApponentInSameDate = await this.appointmentsRepository.findByDate(
+    const findAppoitmentInSameDate = await this.appointmentsRepository.findByDate(
       appointmentDate,
     );
 
-    if (findApponentInSameDate) {
+    if (findAppoitmentInSameDate) {
       throw new AppError('This appointment is already booked');
     }
 
