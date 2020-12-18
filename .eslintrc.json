@@ -24,6 +24,8 @@
     ],
     "rules": {
       "prettier/prettier": "error",
+      "@typescript-eslint/no-unused-vars": "off",
+      "no-useless-constructor":"off",
       "class-methods-use-this": "off",
       "camelcase": "off",
       "import/extensions": [
@@ -32,7 +34,16 @@
         {
           "ts": "never"
         }
+      ],
+      "@typescript-eslint/naming-convention": [
+        "error",
+        {
+          "selector": "interface",
+          "prefix": ["I"],
+          "format": ["PascalCase"]
+        }
       ]
+
     },
     "settings": {
       "import/resolver": {
