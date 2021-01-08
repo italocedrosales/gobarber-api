@@ -148,4 +148,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with 💜 &nbsp;by Italo Cedro 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/italo-cedro-sales-452172119/)
+Made with 💜 &nbsp;by Italo Cedro 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/italo-cedro-452172119/)
